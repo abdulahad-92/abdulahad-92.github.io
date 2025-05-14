@@ -1,127 +1,157 @@
 # Site
-repository: sproogen/resume-theme
+repository: abdulahad-92/abdulahad-92.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Abdul Ahad
+title: Full-Stack Web Developer
+email: abdulahadchachar92@gmail.com
+phone: +92-123-456-7890
+website: https://abdulahad-92.github.io
+website_title: Portfolio
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username: abdulahad-92
+linkedin_username: abdul-ahad-chachar-a7379b262
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+  - title: Email
+    icon: fas fa-envelope
+    url: mailto:abdulahadchachar92@gmail.com
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
+# Google Analytics and Tag Manager (optional, disabled for simplicity)
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+about_content: |
+  Hi, I'm Abdul Ahad, a passionate **Full-Stack Web Developer** from Pakistan with expertise in the MERN stack (MongoDB, Express.js, React, Node.js). I specialize in building responsive, scalable web applications and am currently working on an **Email Automation tool** to streamline workflows. My skills include front-end technologies like HTML, CSS, JavaScript, and React, as well as back-end development with Node.js and MongoDB. I also have experience with data tools like **Power BI** and **Excel**.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I’m always learning, currently diving deeper into the MERN stack, and I thrive on solving complex problems through clean, efficient code. Check out my [GitHub](https://github.com/abdulahad-92) for my latest projects!
 
+# Content Sections
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+      - layout: left
+        title: Email Automation Tool
+        link: https://github.com/abdulahad-92
+        link_text: View on GitHub
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: GitHub Repository
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/abdulahad-92
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+          A tool to automate email workflows using Node.js and MongoDB.
+        description: |
+          Developed a full-stack application to automate email sending processes, integrating Node.js for back-end logic, MongoDB for data storage, and React for a user-friendly interface. Focused on scalability and performance optimization.
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Bliss-Airline-Web-Page
+        link: https://github.com/abdulahad-92/Bliss-Airline-Web-Page
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/abdulahad-92/Bliss-Airline-Web-Page
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+          A visually appealing airline webpage built with CSS.
+        description: |
+          Designed and implemented a responsive webpage for an airline, utilizing advanced CSS techniques to ensure cross-browser compatibility and a modern aesthetic.
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Todo-list-May-24-2023
+        link: https://github.com/abdulahad-92/Todo-list-May-24-2023
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/abdulahad-92/Todo-list-May-24-2023
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+          A functional todo list application using JavaScript.
+        description: |
+          Built a dynamic todo list app with JavaScript, featuring task creation, deletion, and status tracking, with a focus on clean code and user experience.
+      - layout: left
+        title: Financier-10-Sep-2023
+        link: https://github.com/abdulahad-92/Financier-10-Sep-2023
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/abdulahad-92/Financier-10-Sep-2023
+        quote: >
+          A financial application built with JavaScript.
+        description: |
+          Developed a financial tracking tool using JavaScript, enabling users to manage budgets and transactions with a responsive interface.
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Freelance Web Developer
+        sub_title: Full-Stack Developer
+        caption: January 2023 - Present
+        quote: >
+          Building innovative web solutions for clients.
+        description: |
+          Designed and developed multiple web applications, including an Email Automation tool, using the MERN stack. Collaborated with clients to deliver responsive, user-friendly interfaces and optimized back-end systems. Utilized Power BI and Excel for data visualization and analysis to support project requirements.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: University of Karachi
+        sub_title: BS in Computer Science
+        caption: 2018 - 2022
+        quote: >
+          Specialized in software development and database systems.
+        description: |
+          Completed coursework in web development, data structures, algorithms, and database management. Developed several projects using JavaScript, Python, and MongoDB, graduating with a strong foundation in full-stack development.
+  - title: Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      - **Front-end**: HTML, CSS, JavaScript, React, Bootstrap, Sass
+      - **Back-end**: Node.js, Express.js, MongoDB
+      - **Data Tools**: Power BI, Excel
+      - **Other**: Python, Git
+      - **Soft Skills**: Problem-solving, teamwork, communication, time management
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      I’m proficient in building responsive web applications and analyzing data to drive insights, with a keen eye for detail and a passion for continuous learning.
+
+  - title: Interests
+    layout: text
+    content: |
+      Beyond coding, I’m passionate about contributing to open-source projects on [GitHub](https://github.com/abdulahad-92), exploring new web technologies, and staying updated with industry trends. I also enjoy solving coding challenges on platforms like LeetCode and mentoring aspiring developers in my community.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References Available Upon Request
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
