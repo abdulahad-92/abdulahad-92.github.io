@@ -1,0 +1,68 @@
+<div class="timeline-container">
+  {% for section in site.content %}
+    {% if section.title == "My Journey" and section.layout == "timeline" %}
+      <div class="timeline-wrapper">
+        {% for item in section.content %}
+          <div class="timeline-item fade-in-scroll">
+            <h3>{{ item.title }}</h3>
+            {% if item.sub_title %}
+              <h4>{{ item.sub_title }}</h4>
+            {% endif %}
+            {% if item.caption %}
+              <span class="timeline-caption">{{ item.caption }}</span>
+            {% endif %}
+            {% if item.quote %}
+              <blockquote>{{ item.quote }}</blockquote>
+            {% endif %}
+            <p>{{ item.description }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+  .timeline-container {
+    position: relative;
+    padding: 20px 0;
+  }
+  .timeline-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .timeline-item {
+    position: relative;
+    padding-left: 30px;
+    border-left: 2px solid #1E3A8A;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+  }
+  .timeline-item:hover {
+    border-left-color: #DC2626;
+    transform: translateX(10px);
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: #1E3A8A;
+    border-radius: 50%;
+  }
+  .timeline-item:hover::before {
+    background: #DC2626;
+  }
+  .timeline-caption {
+    font-size: 0.9em;
+    color: #F9FAFB;
+    background: #1E3A8A;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+</style>
