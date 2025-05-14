@@ -1,0 +1,77 @@
+<div class="grid-container">
+  {% for item in site.content %}
+    {% if item.title == "Projects" and item.layout == "list-grid" %}
+      <div class="grid-wrapper">
+        {% for project in item.content %}
+          <div class="project-card fade-in-scroll" data-tooltip="{{ project.description | truncate: 100 }}">
+            <h3>{{ project.title }}</h3>
+            {% if project.link %}
+              <a href="{{ project.link }}" class="btn btn-secondary" target="_blank">{{ project.link_text }}</a>
+            {% endif %}
+            {% if project.quote %}
+              <blockquote>{{ project.quote }}</blockquote>
+            {% endif %}
+            <div class="project-details">
+              <p>{{ project.description }}</p>
+              {% if project.additional_links %}
+                {% for link in project.additional_links %}
+                  <a href="{{ link.url }}" target="_blank"><i class="{{ link.icon }}"></i> {{ link.title }}</a>
+                {% endfor %}
+              {% endif %}
+              {% if project.badge %}
+                <span class="badge">{{ project.badge }}</span>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  .grid-wrapper {
+    display: contents;
+  }
+  .project-card {
+    background: #1E3A8A;
+    color: #F9FAFB;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  .project-details {
+    display: none;
+  }
+  .project-card:hover .project-details {
+    display: block;
+    position: absolute;
+    background: #1E3A8A;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  .badge {
+    background: #DC2626;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  a.btn {
+    display: inline-block;
+    margin-top: 10px;
+  }
+</style>
