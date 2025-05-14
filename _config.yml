@@ -7,11 +7,11 @@ version: 2
 
 # Personal info
 name: Abdul Ahad
-title: Aspiring Full-Stack Web Developer
+title: Aspiring Full-Stack Web Developer 
 email: abdulahadchachar92@gmail.com
 phone: +92-123-456-7890
 website: https://abdulahad-92.github.io
-website_title: Portfolio
+website_title: Portfolio - Note: This site is not fully developed yet, sorry for any incovinence 
 
 # Dark Mode (true/false/never)
 darkmode: true
