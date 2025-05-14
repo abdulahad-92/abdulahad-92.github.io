@@ -25,56 +25,101 @@ additional_links:
   - title: Email
     icon: fas fa-envelope
     url: mailto:abdulahadchachar92@gmail.com
+    tooltip: "Send me an email"
+
+# Custom Styling
+sass:
+  sass_dir: _sass
+  style: compressed
+  custom:
+    variables:
+      primary-color: '#1E3A8A'
+      accent-color: '#DC2626'
+      text-color: '#F9FAFB'
+
+# SEO Configuration
+plugins:
+  - jekyll-seo-tag
+seo:
+  name: Abdul Ahad
+  description: Portfolio of Abdul Ahad, an aspiring full-stack web developer skilled in MERN stack, Power BI, and Excel.
+  author: Abdul Ahad
+  twitter:
+    username: abdulahad-92
+  social:
+    links:
+      - https://github.com/abdulahad-92
+      - https://linkedin.com/in/abdul-ahad-chachar-a7379b262
 
 # About Section
 about_title: About Me
-about_profile_image: images/profile.png
+about_profile_image: images/profile.jpg
 about_content: |
-  Hi, I'm Abdul Ahad, an aspiring **Full-Stack Web Developer** from Pakistan, passionate about building innovative web applications. I’m self-taught, having honed my skills in the MERN stack (MongoDB, Express.js, React, Node.js) through courses on **Coursera**, **DataCamp**, and **YouTube**. I also work with data tools like **Power BI** and **Excel** to create insightful visualizations.
-
-  I’m currently focused on developing new projects, such as a **Weather App** and a **Quiz App**, to sharpen my skills in JavaScript and React. Explore my work on [GitHub](https://github.com/abdulahad-92) and connect with me to collaborate on exciting ideas!
+  <div class="animated-fade">
+    Hi, I'm Abdul Ahad, an aspiring **Full-Stack Web Developer** from Pakistan, passionate about crafting innovative web solutions. Self-taught through **Coursera**, **DataCamp**, and **YouTube**, I’ve mastered the MERN stack (MongoDB, Express.js, React, Node.js) and data tools like **Power BI** and **Excel**.
+  </div>
+  <blockquote>
+    "I thrive on turning ideas into functional, beautiful applications."
+  </blockquote>
+  <p>Currently, I’m diving into projects like the **Email Automation Tool**. Check out my work on [GitHub](https://github.com/abdulahad-92)!</p>
 
 # Content Sections
 content:
   - title: Projects
-    layout: list
+    layout: list-grid
     content:
       - layout: left
-        title: Weather-App-18-Jan-2024
-        link: https://github.com/abdulahad-92/Weather-App-18-Jan-2024
+        title: Email Automation Tool
+        link: https://github.com/abdulahad-92
         link_text: View on GitHub
         additional_links:
           - title: GitHub Repository
             icon: fab fa-github
-            url: https://github.com/abdulahad-92/Weather-App-18-Jan-2024
+            url: https://github.com/abdulahad-92
+        badge: Featured
         quote: >
-          A dynamic weather application built with JavaScript.
+          A tool to automate email workflows using Node.js and MongoDB.
         description: |
-          Created a responsive weather app using JavaScript and APIs to fetch real-time weather data, featuring a clean UI and accurate forecasts for users worldwide.
+          <div class="project-card">
+            <p>Developed a full-stack application to automate email processes, integrating Node.js, MongoDB, and React for a scalable, user-friendly solution.</p>
+            <div class="project-details">
+              <p><i class="fas fa-star"></i> Stars: 10 (placeholder)</p>
+            </div>
+          </div>
       - layout: left
-        title: Quiz-App-15-Feb-2024
-        link: https://github.com/abdulahad-92/Quiz-App-15-Feb-2024
+        title: Quill-Hub
+        link: https://github.com/abdulahad-92/Quill-Hub
         link_text: View on GitHub
         additional_links:
           - title: GitHub Repository
             icon: fab fa-github
-            url: https://github.com/abdulahad-92/Quiz-App-15-Feb-2024
+            url: https://github.com/abdulahad-92/Quill-Hub
         quote: >
-          An interactive quiz application using React.
+          A collaborative writing platform built with React.
         description: |
-          Developed a quiz app with React, incorporating features like score tracking, timer, and dynamic question rendering, aimed at providing an engaging user experience.
+          <div class="project-card">
+            <p>Created a real-time collaborative writing tool with React, enabling seamless multi-user editing.</p>
+            <div class="project-details">
+              <p><i class="fas fa-star"></i> Stars: 5 (placeholder)</p>
+            </div>
+          </div>
       - layout: left
-        title: Bliss-Airline-Web-Page
-        link: https://github.com/abdulahad-92/Bliss-Airline-Web-Page
+        title: Marksheet Generator
+        link: https://github.com/abdulahad-92/Marksheet-Generator
         link_text: View on GitHub
         additional_links:
           - title: GitHub Repository
             icon: fab fa-github
-            url: https://github.com/abdulahad-92/Bliss-Airline-Web-Page
+            url: https://github.com/abdulahad-92/Marksheet-Generator
         quote: >
-          A visually appealing airline webpage built with CSS.
+          A tool to generate student marksheets using JavaScript.
         description: |
-          Designed a responsive webpage for an airline, utilizing advanced CSS techniques to ensure cross-browser compatibility and a modern aesthetic.
+          <div class="project-card">
+            <p>Built a marksheet generator with JavaScript, allowing users to input grades and export formatted reports.</p>
+            <div class="project-details">
+              <p><i class="fas fa-star"></i> Stars: 3 (placeholder)</p>
+            </div>
+          </div>
       - layout: left
         title: Todo-list-May-24-2023
         link: https://github.com/abdulahad-92/Todo-list-May-24-2023
@@ -86,7 +131,29 @@ content:
         quote: >
           A functional todo list application using JavaScript.
         description: |
-          Built a dynamic todo list app with JavaScript, featuring task creation, deletion, and status tracking, with a focus on clean code and user experience.
+          <div class="project-card">
+            <p>Developed a dynamic todo list app with JavaScript, featuring task management and a clean UI.</p>
+            <div class="project-details">
+              <p><i class="fas fa-star"></i> Stars: 4 (placeholder)</p>
+            </div>
+          </div>
+      - layout: left
+        title: Bliss-Airline-Web-Page
+        link: https://github.com/abdulahad-92/Bliss-Airline-Web-Page
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/abdulahad-92/Bliss-Airline-Web-Page
+        quote: >
+          A visually appealing airline webpage built with CSS.
+        description: |
+          <div class="project-card">
+            <p>Designed a responsive airline webpage using advanced CSS for a modern, cross-browser experience.</p>
+            <div class="project-details">
+              <p><i class="fas fa-star"></i> Stars: 6 (placeholder)</p>
+            </div>
+          </div>
       - layout: left
         title: Financier-10-Sep-2023
         link: https://github.com/abdulahad-92/Financier-10-Sep-2023
@@ -98,47 +165,100 @@ content:
         quote: >
           A financial application built with JavaScript.
         description: |
-          Developed a financial tracking tool using JavaScript, enabling users to manage budgets and transactions with a responsive interface.
-  - title: Current Focus
-    layout: list
+          <div class="project-card">
+            <p>Created a financial tracking tool with JavaScript for budget and transaction management.</p>
+            <div class="project-details">
+              <p><i class="fas fa-star"></i> Stars: 2 (placeholder)</p>
+            </div>
+          </div>
+  - title: My Journey
+    layout: timeline
     content:
-      - layout: right
+      - layout: timeline-item
         title: Building New Projects
         sub_title: Self-Taught Developer
         caption: 2024 - Present
         quote: >
           Passionate about creating innovative web solutions.
         description: |
-          Actively developing new projects to expand my portfolio, focusing on the MERN stack and data tools like Power BI and Excel. Currently working on applications like a Weather App and Quiz App to enhance my skills in JavaScript and React.
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
+          Actively developing projects like the Email Automation Tool, focusing on the MERN stack and data tools like Power BI and Excel to enhance my skills.
+      - layout: timeline-item
         title: IBA Karachi
         sub_title: BS in Economics
         caption: 2024 - Present
         quote: >
-          Building a strong foundation in economics and technology.
+          Building a foundation in economics and technology.
         description: |
-          Currently pursuing a BS in Economics at IBA Karachi, while self-teaching web development and data analysis through online platforms like **Coursera**, **DataCamp**, and **YouTube**. Gained proficiency in the MERN stack, Power BI, and Excel through structured courses and tutorials.
+          Pursuing a BS in Economics at IBA Karachi, while self-teaching web development and data analysis via **Coursera**, **DataCamp**, and **YouTube**.
   - title: Skills
     layout: text
     content: |
-      - **Front-end**: HTML, CSS, JavaScript, React, Bootstrap, Sass
-      - **Back-end**: Node.js, Express.js, MongoDB
-      - **Data Tools**: Power BI, Excel
-      - **Other**: Python, Git
-      - **Soft Skills**: Problem-solving, self-motivation, continuous learning
-
-      I’ve developed these skills through dedicated learning on Coursera, DataCamp, and YouTube, with a focus on building practical, real-world projects.
+      <div class="skills-progress">
+        <div class="skill-item" data-tooltip="Self-taught via Coursera">
+          <span>HTML</span>
+          <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via Coursera">
+          <span>CSS</span>
+          <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube">
+          <span>JavaScript</span>
+          <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via Coursera">
+          <span>React</span>
+          <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via DataCamp">
+          <span>Node.js</span>
+          <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via DataCamp">
+          <span>MongoDB</span>
+          <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via Coursera">
+          <span>Power BI</span>
+          <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube">
+          <span>Excel</span>
+          <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via Coursera">
+          <span>Python</span>
+          <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube">
+          <span>Git</span>
+          <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+      </div>
+      <p>Self-taught through Coursera, DataCamp, and YouTube, with a focus on practical project development.</p>
   - title: Interests
     layout: text
     content: |
-      I’m passionate about exploring new web technologies and tools, contributing to open-source projects on [GitHub](https://github.com/abdulahad-92), and solving coding challenges. I also enjoy mentoring aspiring developers and staying updated with industry trends to fuel my growth.
+      <div class="fade-in-scroll">
+        I love exploring new web technologies, contributing to open-source on <a href="https://github.com/abdulahad-92">GitHub</a>, and tackling coding challenges. I also enjoy mentoring others and staying ahead with industry trends.
+      </div>
+
+# Call to Action
+  - title: Get in Touch
+    layout: text
+    content: |
+      <div class="cta-buttons fade-in-scroll">
+        <a href="https://github.com/abdulahad-92" class="btn btn-primary">Explore My GitHub</a>
+        <a href="https://linkedin.com/in/abdul-ahad-chachar-a7379b262" class="btn btn-secondary">Connect on LinkedIn</a>
+      </div>
+      <p>Let’s collaborate on your next project!</p>
 
 # Footer
 footer_show_references: true
 references_title: References Available Upon Request
+footer_content: |
+  © 2025 Abdul Ahad. All rights reserved. | <a href="https://linkedin.com/in/abdul-ahad-chachar-a7379b262">Connect on LinkedIn</a>
+  <button id="back-to-top" class="back-to-top">↑ Top</button>
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
@@ -146,6 +266,11 @@ remote_theme: sproogen/modern-resume-theme
 sass:
   sass_dir: _sass
   style: compressed
+  custom:
+    variables:
+      primary-color: '#1E3A8A'
+      accent-color: '#DC2626'
+      text-color: '#F9FAFB'
 
 plugins:
   - jekyll-seo-tag
@@ -161,3 +286,19 @@ exclude:
   - "lib/"
   - "scripts/"
   - "docker-compose.yml"
+
+# Custom JavaScript
+custom_js: |
+  document.addEventListener('DOMContentLoaded', function() {
+    const backToTop = document.getElementById('back-to-top');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        backToTop.style.display = 'block';
+      } else {
+        backToTop.style.display = 'none';
+      }
+    });
+    backToTop.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
