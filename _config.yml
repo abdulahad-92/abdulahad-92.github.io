@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Abdul Ahad
-title: Full-Stack Web Developer
+title: Aspiring Full-Stack Web Developer
 email: abdulahadchachar92@gmail.com
 phone: +92-123-456-7890
 website: https://abdulahad-92.github.io
@@ -26,18 +26,13 @@ additional_links:
     icon: fas fa-envelope
     url: mailto:abdulahadchachar92@gmail.com
 
-# Google Analytics and Tag Manager (optional, disabled for simplicity)
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
 about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: |
-  Hi, I'm Abdul Ahad, a passionate **Full-Stack Web Developer** from Pakistan with expertise in the MERN stack (MongoDB, Express.js, React, Node.js). I specialize in building responsive, scalable web applications and am currently working on an **Email Automation tool** to streamline workflows. My skills include front-end technologies like HTML, CSS, JavaScript, and React, as well as back-end development with Node.js and MongoDB. I also have experience with data tools like **Power BI** and **Excel**.
+  Hi, I'm Abdul Ahad, an aspiring **Full-Stack Web Developer** from Pakistan, passionate about building innovative web applications. I’m self-taught, having honed my skills in the MERN stack (MongoDB, Express.js, React, Node.js) through courses on **Coursera**, **DataCamp**, and **YouTube**. I also work with data tools like **Power BI** and **Excel** to create insightful visualizations.
 
-  I’m always learning, currently diving deeper into the MERN stack, and I thrive on solving complex problems through clean, efficient code. Check out my [GitHub](https://github.com/abdulahad-92) for my latest projects!
+  I’m currently focused on developing new projects, such as a **Weather App** and a **Quiz App**, to sharpen my skills in JavaScript and React. Explore my work on [GitHub](https://github.com/abdulahad-92) and connect with me to collaborate on exciting ideas!
 
 # Content Sections
 content:
@@ -45,17 +40,29 @@ content:
     layout: list
     content:
       - layout: left
-        title: Email Automation Tool
-        link: https://github.com/abdulahad-92
+        title: Weather-App-18-Jan-2024
+        link: https://github.com/abdulahad-92/Weather-App-18-Jan-2024
         link_text: View on GitHub
         additional_links:
           - title: GitHub Repository
             icon: fab fa-github
-            url: https://github.com/abdulahad-92
+            url: https://github.com/abdulahad-92/Weather-App-18-Jan-2024
         quote: >
-          A tool to automate email workflows using Node.js and MongoDB.
+          A dynamic weather application built with JavaScript.
         description: |
-          Developed a full-stack application to automate email sending processes, integrating Node.js for back-end logic, MongoDB for data storage, and React for a user-friendly interface. Focused on scalability and performance optimization.
+          Created a responsive weather app using JavaScript and APIs to fetch real-time weather data, featuring a clean UI and accurate forecasts for users worldwide.
+      - layout: left
+        title: Quiz-App-15-Feb-2024
+        link: https://github.com/abdulahad-92/Quiz-App-15-Feb-2024
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/abdulahad-92/Quiz-App-15-Feb-2024
+        quote: >
+          An interactive quiz application using React.
+        description: |
+          Developed a quiz app with React, incorporating features like score tracking, timer, and dynamic question rendering, aimed at providing an engaging user experience.
       - layout: left
         title: Bliss-Airline-Web-Page
         link: https://github.com/abdulahad-92/Bliss-Airline-Web-Page
@@ -67,7 +74,7 @@ content:
         quote: >
           A visually appealing airline webpage built with CSS.
         description: |
-          Designed and implemented a responsive webpage for an airline, utilizing advanced CSS techniques to ensure cross-browser compatibility and a modern aesthetic.
+          Designed a responsive webpage for an airline, utilizing advanced CSS techniques to ensure cross-browser compatibility and a modern aesthetic.
       - layout: left
         title: Todo-list-May-24-2023
         link: https://github.com/abdulahad-92/Todo-list-May-24-2023
@@ -92,28 +99,28 @@ content:
           A financial application built with JavaScript.
         description: |
           Developed a financial tracking tool using JavaScript, enabling users to manage budgets and transactions with a responsive interface.
-  - title: Experience
+  - title: Current Focus
     layout: list
     content:
       - layout: right
-        title: Freelance Web Developer
-        sub_title: Full-Stack Developer
-        caption: January 2023 - Present
+        title: Building New Projects
+        sub_title: Self-Taught Developer
+        caption: 2024 - Present
         quote: >
-          Building innovative web solutions for clients.
+          Passionate about creating innovative web solutions.
         description: |
-          Designed and developed multiple web applications, including an Email Automation tool, using the MERN stack. Collaborated with clients to deliver responsive, user-friendly interfaces and optimized back-end systems. Utilized Power BI and Excel for data visualization and analysis to support project requirements.
+          Actively developing new projects to expand my portfolio, focusing on the MERN stack and data tools like Power BI and Excel. Currently working on applications like a Weather App and Quiz App to enhance my skills in JavaScript and React.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: University of Karachi
-        sub_title: BS in Computer Science
-        caption: 2018 - 2022
+        title: IBA Karachi
+        sub_title: BS in Economics
+        caption: 2024 - Present
         quote: >
-          Specialized in software development and database systems.
+          Building a strong foundation in economics and technology.
         description: |
-          Completed coursework in web development, data structures, algorithms, and database management. Developed several projects using JavaScript, Python, and MongoDB, graduating with a strong foundation in full-stack development.
+          Currently pursuing a BS in Economics at IBA Karachi, while self-teaching web development and data analysis through online platforms like **Coursera**, **DataCamp**, and **YouTube**. Gained proficiency in the MERN stack, Power BI, and Excel through structured courses and tutorials.
   - title: Skills
     layout: text
     content: |
@@ -121,14 +128,13 @@ content:
       - **Back-end**: Node.js, Express.js, MongoDB
       - **Data Tools**: Power BI, Excel
       - **Other**: Python, Git
-      - **Soft Skills**: Problem-solving, teamwork, communication, time management
+      - **Soft Skills**: Problem-solving, self-motivation, continuous learning
 
-      I’m proficient in building responsive web applications and analyzing data to drive insights, with a keen eye for detail and a passion for continuous learning.
-
+      I’ve developed these skills through dedicated learning on Coursera, DataCamp, and YouTube, with a focus on building practical, real-world projects.
   - title: Interests
     layout: text
     content: |
-      Beyond coding, I’m passionate about contributing to open-source projects on [GitHub](https://github.com/abdulahad-92), exploring new web technologies, and staying updated with industry trends. I also enjoy solving coding challenges on platforms like LeetCode and mentoring aspiring developers in my community.
+      I’m passionate about exploring new web technologies and tools, contributing to open-source projects on [GitHub](https://github.com/abdulahad-92), and solving coding challenges. I also enjoy mentoring aspiring developers and staying updated with industry trends to fuel my growth.
 
 # Footer
 footer_show_references: true
