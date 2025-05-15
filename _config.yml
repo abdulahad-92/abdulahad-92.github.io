@@ -265,7 +265,9 @@ content:
           z-index: 10;
         }
       </style>
-      <p>Self-taught through Coursera, DataCamp, and YouTube, with a focus on practical project development.</p>
+     <p style="text-align: center; font-size: 1.25rem; font-weight: 500; margin: 20px auto; padding: 10px; max-width: 800px; line-height: 1.6; color: #fff;">
+  Self-taught through Coursera, DataCamp, and YouTube, with a focus on practical project development.
+</p>
   - title: My Journey
     layout: timeline
     content:
