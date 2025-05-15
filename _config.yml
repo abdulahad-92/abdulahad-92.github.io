@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Abdul Ahad
-title: Aspiring Full-Stack Web Developer & Prompt Engineer - Note This site is not fully developed yet, sorry for any incovinence
+title: Aspiring Full-Stack Web Developer & Prompt Engineer - Note This site is not fully developed yet, sorry for any inconvenience
 email: abdulahadchachar92@gmail.com
 phone: +92-123-456-7890
 website: https://abdulahad-92.github.io
@@ -62,7 +62,7 @@ about_content: |
     "I thrive on turning ideas into functional, beautiful applications with the power of AI."
   </blockquote>
   <p style="font-size: 1.3rem;">Currently, I’m diving into projects like the <strong>Email Automation Tool</strong>. Check out my work on <a href="https://github.com/abdulahad-92">GitHub</a>!</p>
-  
+
 # Content Sections
 content:
   - title: Projects
@@ -171,102 +171,6 @@ content:
               <p><i class="fas fa-star"></i> Stars: 2 (placeholder)</p>
             </div>
           </div>
-  - title: My Journey
-    layout: timeline
-    content:
-      - layout: timeline-item
-        title: Building New Projects
-        sub_title: Self-Taught Developer & Prompt Engineer
-        caption: 2024 - Present
-        quote: >
-          Passionate about creating innovative web solutions with AI.
-        description: |
-          Actively developing projects like the Email Automation Tool, focusing on the MERN stack and data tools like Power BI and Excel. I leverage my expertise in Prompt Engineering and AI to enhance development workflows, including optimizing this portfolio site using AI tools.
-      - layout: timeline-item
-        title: IBA Karachi
-        sub_title: BS in Economics
-        caption: 2024 - Present
-        quote: >
-          Building a foundation in economics and technology.
-        description: |
-          Pursuing a BS in Economics at IBA Karachi, while self-teaching web development and data analysis via <strong>Coursera</strong>, <strong>DataCamp</strong>, and <strong>YouTube</strong>.
-  # - title: Skills
-  #   layout: text
-  #   content: |
-  #     <div class="skills-progress">
-  #       <div class="skill-item" data-tooltip="Expertise in crafting AI prompts">
-  #         <img src="https://img.icons8.com/?size=100&id=121437&format=png&color=000000" alt="Prompt Engineering Icon" class="skill-icon" /> 
-  #         <span>Prompt Engineering</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via Coursera">
-  #         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5 Icon" class="skill-icon" /> 
-  #         <span>HTML</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via Coursera">
-  #         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3 Icon" class="skill-icon" /> 
-  #         <span>CSS</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via YouTube">
-  #         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript Icon" class="skill-icon" /> 
-  #         <span>JavaScript</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via Coursera">
-  #         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React Icon" class="skill-icon" /> 
-  #         <span>React</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via DataCamp">
-  #         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js Icon" class="skill-icon" /> 
-  #         <span>Node.js</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via DataCamp">
-  #         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB Icon" class="skill-icon" /> 
-  #         <span>MongoDB</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via Coursera">
-  #         <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Icon" class="skill-icon" /> 
-  #         <span>Power BI</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via YouTube">
-  #         <img src="https://img.icons8.com/?size=100&id=117561&format=png&color=000000" alt="Excel Icon" class="skill-icon" /> 
-  #         <span>Excel</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via Coursera">
-  #         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python Icon" class="skill-icon" /> 
-  #         <span>Python</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via YouTube">
-  #         <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git Icon" class="skill-icon" /> 
-  #         <span>Git</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via Coursera">
-  #         <img src="https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000" alt="Bootstrap Icon" class="skill-icon" /> 
-  #         <span>Bootstrap</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via Coursera">
-  #         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="Sass Icon" class="skill-icon" /> 
-  #         <span>Sass</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
-  #       </div>
-  #       <div class="skill-item" data-tooltip="Self-taught via DataCamp">
-  #         <img src="https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000" alt="ExpressJS Icon" class="skill-icon" /> 
-  #         <span>ExpressJS</span>
-  #         <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
-  #       </div>
-  #     </div>
-  # Content Sections
-content:
   - title: Skills
     layout: text
     content: |
@@ -339,7 +243,7 @@ content:
         <div class="skill-item" data-tooltip="Self-taught via DataCamp" style="display: flex; align-items: center; gap: 15px; position: relative;">
           <img src="https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000" alt="ExpressJS Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" /> 
           <span>ExpressJS</span>
-          <div class="progress-bar" style="background: "background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;"><div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div></div>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;"><div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div></div>
         </div>
       </div>
       <style>
@@ -362,6 +266,25 @@ content:
         }
       </style>
       <p>Self-taught through Coursera, DataCamp, and YouTube, with a focus on practical project development.</p>
+  - title: My Journey
+    layout: timeline
+    content:
+      - layout: timeline-item
+        title: Building New Projects
+        sub_title: Self-Taught Developer & Prompt Engineer
+        caption: 2024 - Present
+        quote: >
+          Passionate about creating innovative web solutions with AI.
+        description: |
+          Actively developing projects like the Email Automation Tool, focusing on the MERN stack and data tools like Power BI and Excel. I leverage my expertise in Prompt Engineering and AI to enhance development workflows, including optimizing this portfolio site using AI tools.
+      - layout: timeline-item
+        title: IBA Karachi
+        sub_title: BS in Economics
+        caption: 2024 - Present
+        quote: >
+          Building a foundation in economics and technology.
+        description: |
+          Pursuing a BS in Economics at IBA Karachi, while self-teaching web development and data analysis via <strong>Coursera</strong>, <strong>DataCamp</strong>, and <strong>YouTube</strong>.
   - title: Interests
     layout: text
     content: |
@@ -388,15 +311,6 @@ footer_content: |
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-  custom:
-    variables:
-      primary-color: '#1E3A8A'
-      accent-color: '#DC2626'
-      text-color: '#F9FAFB'
 
 plugins:
   - jekyll-seo-tag
