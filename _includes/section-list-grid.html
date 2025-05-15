@@ -12,7 +12,7 @@
               <blockquote>{{ project.quote }}</blockquote>
             {% endif %}
             <div class="project-details">
-              <p>{{ project.description }}</p>
+              {{ project.description }}
               {% if project.additional_links %}
                 {% for link in project.additional_links %}
                   <a href="{{ link.url }}" target="_blank"><i class="{{ link.icon }}"></i> {{ link.title }}</a>
@@ -33,7 +33,7 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
   }
   .grid-wrapper {
@@ -42,27 +42,35 @@
   .project-card {
     background: #1E3A8A;
     color: #F9FAFB;
-    padding: 15px;
+    padding: 20px;
     border-radius: 5px;
     position: relative;
     transition: transform 0.3s ease;
+    min-height: 200px; /* Ensure enough space for content */
+    margin-bottom: 20px; /* Prevent overlap */
   }
   .project-card:hover {
     transform: scale(1.05);
+    z-index: 10;
+  }
+  .project-card-content {
+    font-size: 1rem;
+    line-height: 1.5;
   }
   .project-details {
     display: none;
-  }
-  .project-card:hover .project-details {
-    display: block;
-    position: absolute;
     background: #1E3A8A;
     padding: 10px;
     border-radius: 5px;
-    z-index: 10;
+    z-index: 20;
+    position: absolute;
     top: 100%;
     left: 0;
     right: 0;
+    margin-top: 10px;
+  }
+  .project-card:hover .project-details {
+    display: block;
   }
   .badge {
     background: #DC2626;
