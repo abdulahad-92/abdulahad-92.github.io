@@ -174,117 +174,106 @@ content:
   - title: Skills
     layout: text
     content: |
-<div class="skills-progress" style="display: flex; flex-direction: column; gap: 25px;">
-  <div class="skill-item" data-tooltip="Expertise in crafting AI prompts" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://img.icons8.com/?size=100&id=121437&format=png&color=000000" alt="Prompt Engineering Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>Prompt Engineering</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 95%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via Coursera" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5 Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>HTML</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 90%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via Coursera" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3 Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>CSS</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 85%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>JavaScript</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 80%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>React</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 75%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>Node.js</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>MongoDB</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via Coursera" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>Power BI</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 65%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://img.icons8.com/?size=100&id=117561&format=png&color=000000" alt="Excel Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>Excel</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 60%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via DataCamp" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>Python</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 60%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>Git</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000" alt="Bootstrap Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" /> 
-    <span>Bootstrap</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 80%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SASS Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" />
-    <span>SASS</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 65%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-  <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js Icon" class="skill-icon" style="width: 40px; height: 40px; object-fit: contain;" />
-    <span>Express.js</span>
-    <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
-      <div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div>
-    </div>
-  </div>
-</div>
+      <div class="skills-progress" style="display: flex; flex-direction: column; gap: 25px;">
+        <div class="skill-item" data-tooltip="Expertise in crafting AI prompts" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://img.icons8.com/?size=100&id=121437&format=png&color=000000" alt="Prompt Engineering Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>Prompt Engineering</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 95%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via Coursera" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5 Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>HTML</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 90%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via Coursera" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3 Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>CSS</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 85%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>JavaScript</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 80%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>React</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 75%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>Node.js</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>MongoDB</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via Coursera" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>Power BI</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 65%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://img.icons8.com/?size=100&id=117561&format=png&color=000000" alt="Excel Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>Excel</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 60%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via DataCamp" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>Python</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 60%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>Git</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000" alt="Bootstrap Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>Bootstrap</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 80%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="Sass Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>Sass</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 75%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-tooltip="Self-taught via YouTube" style="display: flex; align-items: center; gap: 15px; position: relative;">
+          <img src="https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000" alt="ExpressJS Icon" class="skill-icon" style="width: 20px; height: 20px; object-fit: contain;" />
+          <span>ExpressJS</span>
+          <div class="progress-bar" style="background: #E5E7EB; height: 12px; border-radius: 5px; overflow: hidden; flex: 1;">
+            <div class="progress" style="background: #DC2626; height: 100%; width: 70%; animation: progressAnim 2s ease-in-out;"></div>
+          </div>
+        </div>
+      </div>
       <style>
         @keyframes progressAnim {
           from { width: 0; }
