@@ -1,25 +1,25 @@
-<div class="grid-container">
+<div class="grid-container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 50px; padding: 20px; margin-bottom: 150px; position: relative; z-index: 1;">
   {% for item in site.content %}
     {% if item.title == "Projects" and item.layout == "list-grid" %}
-      <div class="grid-wrapper">
-<!--         {% for project in item.content %} -->
-          <div class="project-card fade-in-scroll" data-tooltip="{{ project.description | truncate: 100 }}">
+      <div class="grid-wrapper" style="display: contents;">
+        {% for project in item.content %}
+          <div class="project-card fade-in-scroll" data-tooltip="{{ project.description | truncate: 100 }}" style="background: #1E3A8A; color: #F9FAFB; padding: 20px; border-radius: 5px; position: relative; transition: transform 0.3s ease; min-height: 300px; margin-bottom: 80px; overflow: visible;">
             <h3>{{ project.title }}</h3>
             {% if project.link %}
-              <a href="{{ project.link }}" class="btn btn-secondary" target="_blank">{{ project.link_text }}</a>
+              <a href="{{ project.link }}" class="btn btn-secondary" target="_blank" style="display: inline-block; margin-top: 10px; background: #4B5563; color: #F9FAFB; padding: 10px 20px; text-decoration: none; border-radius: 5px; transition: all 0.3s ease;">{{ project.link_text }}</a>
             {% endif %}
             {% if project.quote %}
-              <blockquote>{{ project.quote | markdownify }}</blockquote>
+              <blockquote style="margin: 10px 0; padding-left: 15px; border-left: 3px solid #DC2626;">{{ project.quote | markdownify }}</blockquote>
             {% endif %}
-            <div class="project-details">
+            <div class="project-details" style="display: none; background: #1E3A8A; padding: 15px; border-radius: 5px; z-index: 200; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); width: 90%; margin-top: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); max-height: 200px; overflow-y: auto;">
               {{ project.description | markdownify | strip_html }}
               {% if project.additional_links %}
                 {% for link in project.additional_links %}
-                  <a href="{{ link.url }}" target="_blank"><i class="{{ link.icon }}"></i> {{ link.title }}</a>
+                  <a href="{{ link.url }}" target="_blank" style="display: inline-block; margin-top: 5px; color: #F9FAFB; text-decoration: underline;"><i class="{{ link.icon }}" style="margin-right: 5px;"></i> {{ link.title }}</a>
                 {% endfor %}
               {% endif %}
               {% if project.badge %}
-                <span class="badge">{{ project.badge }}</span>
+                <span class="badge" style="background: #DC2626; padding: 5px 10px; border-radius: 5px; margin-left: 10px;">{{ project.badge }}</span>
               {% endif %}
             </div>
           </div>
@@ -30,64 +30,15 @@
 </div>
 
 <style>
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 50px;
-    padding: 20px;
-    margin-bottom: 120px; /* Increased to ensure space for hover */
-    position: relative;
-    z-index: 1;
-  }
-  .grid-wrapper {
-    display: contents;
-  }
-  .project-card {
-    background: #1E3A8A;
-    color: #F9FAFB;
-    padding: 20px;
-    border-radius: 5px;
-    position: relative;
-    transition: transform 0.3s ease;
-    min-height: 250px;
-    margin-bottom: 60px;
-    overflow: hidden; /* Contain hover overflow */
-  }
   .project-card:hover {
     transform: scale(1.05);
-    z-index: 100; /* Higher z-index to ensure dominance */
-  }
-  .project-card-content {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  .project-details {
-    display: none;
-    background: #1E3A8A;
-    padding: 15px;
-    border-radius: 5px;
-    z-index: 200;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    margin-top: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-height: 200px; /* Limit height to prevent excessive overlap */
-    overflow-y: auto; /* Scroll if content exceeds */
+    z-index: 100;
   }
   .project-card:hover .project-details {
     display: block;
   }
-  .badge {
-    background: #DC2626;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-left: 10px;
-  }
-  a.btn {
-    display: inline-block;
-    margin-top: 10px;
+  .project-card-content {
+    font-size: 1rem;
+    line-height: 1.5;
   }
 </style>
