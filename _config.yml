@@ -290,7 +290,7 @@ content:
   - title: Interests
     layout: text
     content: |
-      <div class="fade-in-scroll" style="font-size: 1.3rem; line-height: 1.7;">
+      <div class="fade-in-scroll" style="font-size: 1.7rem; line-height: 1.7;">
         I’m passionate about exploring new web technologies, contributing to open-source on <a href="https://github.com/abdulahad-92">GitHub</a>, and tackling coding challenges. I also enjoy mentoring others and staying ahead with industry trends. I love <strong>vibe coding</strong>, relying on my expertise with AI to streamline development rather than memorizing syntax—I let AI handle the details while I focus on creativity and innovation.
       </div>
 
