@@ -115,13 +115,13 @@ content:
           A tool to generate student marksheets using JavaScript.
         description: |
           <div class="project-card-content">
-            <p>Built a marksheet generator with JavaScript, allowing users to input grades and export formatted reports.</p>
+            <p>Built a marksheet generator with Python, allowing users to input their courses and get a personal marksheet for tracking their grades.</p>
             <div class="project-details">
               <p><i class="fas fa-star"></i> Stars: 3 (placeholder)</p>
             </div>
           </div>
       - layout: left
-        title: Todo-list-May-24-2023
+        title: Todo-list
         link: https://github.com/abdulahad-92/Todo-list-May-24-2023
         link_text: View on GitHub
         additional_links:
@@ -155,7 +155,7 @@ content:
             </div>
           </div>
       - layout: left
-        title: Financier-10-Sep-2023
+        title: Financier
         link: https://github.com/abdulahad-92/Financier-10-Sep-2023
         link_text: View on GitHub
         additional_links:
