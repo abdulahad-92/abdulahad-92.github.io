@@ -1,12 +1,12 @@
 /* Font Adjustments */
 body {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif !important;
   font-size: 1.1rem;
   line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   font-weight: 700;
 }
 
@@ -16,15 +16,15 @@ strong {
 
 /* Section Spacing */
 section {
-  padding: 40px 20px; /* Increased padding for better separation */
-  margin-bottom: 60px; /* Add space between sections */
+  padding: 40px 20px !important;
+  margin-bottom: 80px !important; /* Ensure clear separation between sections */
 }
 
 /* Skills Section */
 .skills-progress {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Spacing between skill items */
+  gap: 20px;
 }
 
 .skill-item {
@@ -35,8 +35,9 @@ section {
 }
 
 .skill-icon {
-  width: 20px; /* Reduced size for better proportion */
-  height: 20px;
+  width: 20px !important; /* Force smaller icon size */
+  height: 20px !important;
+  object-fit: contain; /* Ensure proper scaling */
 }
 
 .skill-item:hover::after {
