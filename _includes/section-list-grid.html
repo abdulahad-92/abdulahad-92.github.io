@@ -2,7 +2,7 @@
   {% for item in site.content %}
     {% if item.title == "Projects" and item.layout == "list-grid" %}
       <div class="grid-wrapper" style="display: contents;">
-<!--         {% for project in item.content %} -->
+        {% for project in item.content %}
           <div class="project-card fade-in-scroll" data-tooltip="{{ project.description | truncate: 100 }}" style="background: #1E3A8A; color: #F9FAFB; padding: 20px; border-radius: 5px; position: relative; transition: transform 0.3s ease; min-height: 300px; margin-bottom: 80px; overflow: visible;">
             <h3>{{ project.title }}</h3>
             {% if project.link %}
