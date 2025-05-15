@@ -1,206 +1,3 @@
-.animated-fade {
-    animation: fadeIn 2s ease-in;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  .fade-in-scroll {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.5s ease-out;
-  }
-  
-  .fade-in-scroll.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .project-card {
-    position: relative;
-    transition: all 0.3s ease;
-  }
-  
-  .project-card:hover .project-details {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .project-details {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: all 0.3s ease;
-    background: #1E3A8A;
-    color: #F9FAFB;
-    padding: 10px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .skills-progress {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .skill-item {
-    position: relative;
-  }
-  
-  .skill-item:hover::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    background: #1E3A8A;
-    color: #F9FAFB;
-    padding: 5px 10px;
-    border-radius: 5px;
-    top: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    z-index: 10;
-  }
-  
-  .progress-bar {
-    background: #E5E7EB;
-    height: 10px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .progress {
-    background: #DC2626;
-    height: 100%;
-    animation: progressAnim 2s ease-in-out;
-  }
-  
-  @keyframes progressAnim {
-    from { width: 0; }
-    to { width: inherit; }
-  }
-  
-  .timeline-item {
-    position: relative;
-    padding-left: 30px;
-    border-left: 2px solid #1E3A8A;
-    margin: 20px 0;
-    transition: all 0.3s ease;
-  }
-  
-  .timeline-item:hover {
-    border-left-color: #DC2626;
-    transform: translateX(10px);
-  }
-  
-  .timeline-item::before {
-    content: '';
-    position: absolute;
-    left: -8px;
-    top: 0;
-    width: 16px;
-    height: 16px;
-    background: #1E3A8A;
-    border-radius: 50%;
-  }
-  
-  .timeline-item:hover::before {
-    background: #DC2626;
-  }
-  
-  .cta-buttons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .btn {
-    background: #1E3A8A;
-    color: #F9FAFB;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    transition: all 0.3s ease;
-  }
-  
-  .btn-primary:hover {
-    background: #DC2626;
-    transform: scale(1.05);
-  }
-  
-  .btn-secondary {
-    background: #4B5563;
-  }
-  
-  .btn-secondary:hover {
-    background: #DC2626;
-    transform: scale(1.05);
-  }
-  
-  .back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #1E3A8A;
-    color: #F9FAFB;
-    padding: 10px 15px;
-    border-radius: 50%;
-    display: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .back-to-top:hover {
-    background: #DC2626;
-    transform: scale(1.1);
-  }
-.animated-fade {
-  animation: fadeIn 2s ease-in;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-.skill-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 10px 0;
-}
-
-.badge {
-  background: #1E3A8A;
-  color: #F9FAFB;
-  padding: 5px 10px;
-  border-radius: 5px;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.badge i {
-  color: #DC2626;
-}
-
-.btn {
-  background: #1E3A8A;
-  color: #F9FAFB;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  margin: 10px 0;
-}
-
-.btn:hover {
-  background: #DC2626;
-}
 /* Font Adjustments */
 body {
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
@@ -208,20 +5,63 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4,
+strong {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
-strong {
-  font-weight: 700;
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animated-fade {
+  animation: fadeIn 2s ease-in;
+}
+
+.fade-in-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-out;
+}
+
+.fade-in-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Project Card */
+.project-card {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover .project-details {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-details {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  background: #1E3A8A;
+  color: #F9FAFB;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /* Skills Section */
 .skills-progress {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Increased spacing */
+  gap: 20px;
 }
 
 .skill-item {
@@ -229,11 +69,6 @@ strong {
   align-items: center;
   gap: 10px;
   position: relative;
-}
-
-.skill-icon {
-  width: 24px;
-  height: 24px;
 }
 
 .skill-item:hover::after {
@@ -248,6 +83,11 @@ strong {
   transform: translateX(-50%);
   white-space: nowrap;
   z-index: 10;
+}
+
+.skill-icon {
+  width: 24px;
+  height: 24px;
 }
 
 .progress-bar {
@@ -269,27 +109,29 @@ strong {
   to { width: inherit; }
 }
 
-/* Existing Styles */
-.animated-fade {
-  animation: fadeIn 2s ease-in;
+/* Skill Badges */
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+.badge {
+  background: #1E3A8A;
+  color: #F9FAFB;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.fade-in-scroll {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.5s ease-out;
+.badge i {
+  color: #DC2626;
 }
 
-.fade-in-scroll.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
+/* Timeline */
 .timeline-item {
   position: relative;
   padding-left: 30px;
@@ -318,6 +160,7 @@ strong {
   background: #DC2626;
 }
 
+/* Buttons */
 .cta-buttons {
   display: flex;
   gap: 15px;
@@ -331,9 +174,12 @@ strong {
   border-radius: 5px;
   display: inline-block;
   transition: all 0.3s ease;
+  margin: 10px 0;
 }
 
-.btn-primary:hover {
+.btn:hover,
+.btn-primary:hover,
+.btn-secondary:hover {
   background: #DC2626;
   transform: scale(1.05);
 }
@@ -342,11 +188,7 @@ strong {
   background: #4B5563;
 }
 
-.btn-secondary:hover {
-  background: #DC2626;
-  transform: scale(1.05);
-}
-
+/* Back to Top */
 .back-to-top {
   position: fixed;
   bottom: 20px;
