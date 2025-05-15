@@ -2,7 +2,7 @@
   {% for item in site.content %}
     {% if item.title == "Projects" and item.layout == "list-grid" %}
       <div class="grid-wrapper">
-        {% for project in item.content %}
+<!--         {% for project in item.content %} -->
           <div class="project-card fade-in-scroll" data-tooltip="{{ project.description | truncate: 100 }}">
             <h3>{{ project.title }}</h3>
             {% if project.link %}
