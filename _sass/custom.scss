@@ -5,63 +5,26 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, h4,
-strong {
+h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
-/* Animation */
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+strong {
+  font-weight: 700;
 }
 
-.animated-fade {
-  animation: fadeIn 2s ease-in;
-}
-
-.fade-in-scroll {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.5s ease-out;
-}
-
-.fade-in-scroll.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Project Card */
-.project-card {
-  position: relative;
-  transition: all 0.3s ease;
-}
-
-.project-card:hover .project-details {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.project-details {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.3s ease;
-  background: #1E3A8A;
-  color: #F9FAFB;
-  padding: 10px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+/* Section Spacing */
+section {
+  padding: 40px 20px; /* Increased padding for better separation */
+  margin-bottom: 60px; /* Add space between sections */
 }
 
 /* Skills Section */
 .skills-progress {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 20px; /* Spacing between skill items */
 }
 
 .skill-item {
@@ -69,6 +32,11 @@ strong {
   align-items: center;
   gap: 10px;
   position: relative;
+}
+
+.skill-icon {
+  width: 20px; /* Reduced size for better proportion */
+  height: 20px;
 }
 
 .skill-item:hover::after {
@@ -83,11 +51,6 @@ strong {
   transform: translateX(-50%);
   white-space: nowrap;
   z-index: 10;
-}
-
-.skill-icon {
-  width: 24px;
-  height: 24px;
 }
 
 .progress-bar {
@@ -109,29 +72,27 @@ strong {
   to { width: inherit; }
 }
 
-/* Skill Badges */
-.skill-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 10px 0;
+/* Existing Styles */
+.animated-fade {
+  animation: fadeIn 2s ease-in;
 }
 
-.badge {
-  background: #1E3A8A;
-  color: #F9FAFB;
-  padding: 5px 10px;
-  border-radius: 5px;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-.badge i {
-  color: #DC2626;
+.fade-in-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-out;
 }
 
-/* Timeline */
+.fade-in-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .timeline-item {
   position: relative;
   padding-left: 30px;
@@ -160,7 +121,6 @@ strong {
   background: #DC2626;
 }
 
-/* Buttons */
 .cta-buttons {
   display: flex;
   gap: 15px;
@@ -174,12 +134,9 @@ strong {
   border-radius: 5px;
   display: inline-block;
   transition: all 0.3s ease;
-  margin: 10px 0;
 }
 
-.btn:hover,
-.btn-primary:hover,
-.btn-secondary:hover {
+.btn-primary:hover {
   background: #DC2626;
   transform: scale(1.05);
 }
@@ -188,7 +145,11 @@ strong {
   background: #4B5563;
 }
 
-/* Back to Top */
+.btn-secondary:hover {
+  background: #DC2626;
+  transform: scale(1.05);
+}
+
 .back-to-top {
   position: fixed;
   bottom: 20px;
