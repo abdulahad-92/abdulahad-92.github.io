@@ -44,6 +44,27 @@ section {
   object-fit: contain;
 }
 
+/* Smaller and consistent skill icon size */
+.skill-icon {
+  width: 16px !important;
+  height: 16px !important;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Optional: Align text better with icons */
+.skill-item {
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem; /* Slightly smaller to match reduced icon size */
+}
+
+/* Optional: Slightly reduce padding for compact layout */
+.skills-progress {
+  gap: 20px;
+}
+
+
 .skill-item:hover::after {
   content: attr(data-tooltip);
   position: absolute;
