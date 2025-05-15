@@ -7,11 +7,11 @@ version: 2
 
 # Personal info
 name: Abdul Ahad
-title: Aspiring Full-Stack Web Developer. Note This site is not fully developed yet, sorry for any incovinence
+title: Aspiring Full-Stack Web Developer
 email: abdulahadchachar92@gmail.com
 phone: +92-123-456-7890
 website: https://abdulahad-92.github.io
-website_title: Portfolio  
+website_title: Portfolio
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -25,7 +25,6 @@ additional_links:
   - title: Email
     icon: fas fa-envelope
     url: mailto:abdulahadchachar92@gmail.com
-    tooltip: "Send me an email"
 
 # Custom Styling
 sass:
@@ -33,8 +32,8 @@ sass:
   style: compressed
   custom:
     variables:
-      primary-color: '#1E3A8A'
-      accent-color: '#DC2626'
+      primary-color: '#1E3A8A'  # Deep blue from suit
+      accent-color: '#DC2626'   # Red from tie
       text-color: '#F9FAFB'
 
 # SEO Configuration
@@ -80,12 +79,7 @@ content:
         quote: >
           A tool to automate email workflows using Node.js and MongoDB.
         description: |
-          <div class="project-card">
-            <p>Developed a full-stack application to automate email processes, integrating Node.js, MongoDB, and React for a scalable, user-friendly solution.</p>
-            <div class="project-details">
-              <p><i class="fas fa-star"></i> Stars: 10 (placeholder)</p>
-            </div>
-          </div>
+          Developed a full-stack application to automate email processes, integrating Node.js, MongoDB, and React for a scalable, user-friendly solution.
       - layout: left
         title: Quill-Hub
         link: https://github.com/abdulahad-92/Quill-Hub
@@ -97,12 +91,7 @@ content:
         quote: >
           A collaborative writing platform built with React.
         description: |
-          <div class="project-card">
-            <p>Created a real-time collaborative writing tool with React, enabling seamless multi-user editing.</p>
-            <div class="project-details">
-              <p><i class="fas fa-star"></i> Stars: 5 (placeholder)</p>
-            </div>
-          </div>
+          Created a real-time collaborative writing tool with React, enabling seamless multi-user editing.
       - layout: left
         title: Marksheet Generator
         link: https://github.com/abdulahad-92/Marksheet-Generator
@@ -114,12 +103,7 @@ content:
         quote: >
           A tool to generate student marksheets using JavaScript.
         description: |
-          <div class="project-card">
-            <p>Built a marksheet generator with JavaScript, allowing users to input grades and export formatted reports.</p>
-            <div class="project-details">
-              <p><i class="fas fa-star"></i> Stars: 3 (placeholder)</p>
-            </div>
-          </div>
+          Built a marksheet generator with JavaScript, allowing users to input grades and export formatted reports.
       - layout: left
         title: Todo-list-May-24-2023
         link: https://github.com/abdulahad-92/Todo-list-May-24-2023
@@ -131,12 +115,7 @@ content:
         quote: >
           A functional todo list application using JavaScript.
         description: |
-          <div class="project-card">
-            <p>Developed a dynamic todo list app with JavaScript, featuring task management and a clean UI.</p>
-            <div class="project-details">
-              <p><i class="fas fa-star"></i> Stars: 4 (placeholder)</p>
-            </div>
-          </div>
+          Developed a dynamic todo list app with JavaScript, featuring task management and a clean UI.
       - layout: left
         title: Bliss-Airline-Web-Page
         link: https://github.com/abdulahad-92/Bliss-Airline-Web-Page
@@ -148,12 +127,7 @@ content:
         quote: >
           A visually appealing airline webpage built with CSS.
         description: |
-          <div class="project-card">
-            <p>Designed a responsive airline webpage using advanced CSS for a modern, cross-browser experience.</p>
-            <div class="project-details">
-              <p><i class="fas fa-star"></i> Stars: 6 (placeholder)</p>
-            </div>
-          </div>
+          Designed a responsive airline webpage using advanced CSS for a modern, cross-browser experience.
       - layout: left
         title: Financier-10-Sep-2023
         link: https://github.com/abdulahad-92/Financier-10-Sep-2023
@@ -165,16 +139,11 @@ content:
         quote: >
           A financial application built with JavaScript.
         description: |
-          <div class="project-card">
-            <p>Created a financial tracking tool with JavaScript for budget and transaction management.</p>
-            <div class="project-details">
-              <p><i class="fas fa-star"></i> Stars: 2 (placeholder)</p>
-            </div>
-          </div>
-  - title: My Journey
-    layout: timeline
+          Created a financial tracking tool with JavaScript for budget and transaction management.
+  - title: Current Focus
+    layout: list
     content:
-      - layout: timeline-item
+      - layout: right
         title: Building New Projects
         sub_title: Self-Taught Developer
         caption: 2024 - Present
@@ -182,7 +151,10 @@ content:
           Passionate about creating innovative web solutions.
         description: |
           Actively developing projects like the Email Automation Tool, focusing on the MERN stack and data tools like Power BI and Excel to enhance my skills.
-      - layout: timeline-item
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
         title: IBA Karachi
         sub_title: BS in Economics
         caption: 2024 - Present
@@ -193,72 +165,36 @@ content:
   - title: Skills
     layout: text
     content: |
-      <div class="skills-progress">
-        <div class="skill-item" data-tooltip="Self-taught via Coursera">
-          <span>HTML</span>
-          <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via Coursera">
-          <span>CSS</span>
-          <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via YouTube">
-          <span>JavaScript</span>
-          <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via Coursera">
-          <span>React</span>
-          <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via DataCamp">
-          <span>Node.js</span>
-          <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via DataCamp">
-          <span>MongoDB</span>
-          <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via Coursera">
-          <span>Power BI</span>
-          <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via YouTube">
-          <span>Excel</span>
-          <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via Coursera">
-          <span>Python</span>
-          <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
-        </div>
-        <div class="skill-item" data-tooltip="Self-taught via YouTube">
-          <span>Git</span>
-          <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
-        </div>
+      <div class="skill-badges">
+        <span class="badge"><i class="fab fa-html5"></i> HTML</span>
+        <span class="badge"><i class="fab fa-css3-alt"></i> CSS</span>
+        <span class="badge"><i class="fab fa-js"></i> JavaScript</span>
+        <span class="badge"><i class="fab fa-react"></i> React</span>
+        <span class="badge"><i class="fab fa-node"></i> Node.js</span>
+        <span class="badge"><i class="fas fa-database"></i> MongoDB</span>
+        <span class="badge"><i class="fas fa-chart-bar"></i> Power BI</span>
+        <span class="badge"><i class="fas fa-table"></i> Excel</span>
+        <span class="badge"><i class="fab fa-python"></i> Python</span>
+        <span class="badge"><i class="fab fa-git"></i> Git</span>
       </div>
       <p>Self-taught through Coursera, DataCamp, and YouTube, with a focus on practical project development.</p>
   - title: Interests
     layout: text
     content: |
-      <div class="fade-in-scroll">
-        I love exploring new web technologies, contributing to open-source on <a href="https://github.com/abdulahad-92">GitHub</a>, and tackling coding challenges. I also enjoy mentoring others and staying ahead with industry trends.
-      </div>
+      I love exploring new web technologies, contributing to open-source on [GitHub](https://github.com/abdulahad-92), and tackling coding challenges. I also enjoy mentoring others and staying ahead with industry trends.
 
 # Call to Action
   - title: Get in Touch
     layout: text
     content: |
-      <div class="cta-buttons fade-in-scroll">
-        <a href="https://github.com/abdulahad-92" class="btn btn-primary">Explore My GitHub</a>
-        <a href="https://linkedin.com/in/abdul-ahad-chachar-a7379b262" class="btn btn-secondary">Connect on LinkedIn</a>
-      </div>
-      <p>Let’s collaborate on your next project!</p>
+      <a href="https://github.com/abdulahad-92" class="btn">Explore My GitHub</a>
+      Let’s collaborate on your next project!
 
 # Footer
 footer_show_references: true
 references_title: References Available Upon Request
 footer_content: |
   © 2025 Abdul Ahad. All rights reserved. | <a href="https://linkedin.com/in/abdul-ahad-chachar-a7379b262">Connect on LinkedIn</a>
-  <button id="back-to-top" class="back-to-top">↑ Top</button>
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
@@ -286,19 +222,3 @@ exclude:
   - "lib/"
   - "scripts/"
   - "docker-compose.yml"
-
-# Custom JavaScript
-custom_js: |
-  document.addEventListener('DOMContentLoaded', function() {
-    const backToTop = document.getElementById('back-to-top');
-    window.addEventListener('scroll', function() {
-      if (window.scrollY > 300) {
-        backToTop.style.display = 'block';
-      } else {
-        backToTop.style.display = 'none';
-      }
-    });
-    backToTop.addEventListener('click', function() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  });
