@@ -52,7 +52,7 @@ seo:
 
 # About Section
 about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: |
   <div class="animated-fade">
     Hi, I'm Abdul Ahad, an aspiring **Full-Stack Web Developer** from Pakistan, passionate about crafting innovative web solutions. Self-taught through **Coursera**, **DataCamp**, and **YouTube**, I’ve mastered the MERN stack (MongoDB, Express.js, React, Node.js) and data tools like **Power BI** and **Excel**.
