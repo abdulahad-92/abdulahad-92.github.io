@@ -33,8 +33,9 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 40px; /* Increased gap between cards */
     padding: 20px;
+    margin-bottom: 60px; /* Add space to separate from the next section */
   }
   .grid-wrapper {
     display: contents;
@@ -46,8 +47,8 @@
     border-radius: 5px;
     position: relative;
     transition: transform 0.3s ease;
-    min-height: 200px; /* Ensure enough space for content */
-    margin-bottom: 20px; /* Prevent overlap */
+    min-height: 220px; /* Increased to accommodate content */
+    margin-bottom: 40px; /* Ensure space below each card to prevent overlap */
   }
   .project-card:hover {
     transform: scale(1.05);
