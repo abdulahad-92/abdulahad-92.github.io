@@ -9,10 +9,10 @@
               <a href="{{ project.link }}" class="btn btn-secondary" target="_blank">{{ project.link_text }}</a>
             {% endif %}
             {% if project.quote %}
-              <blockquote>{{ project.quote }}</blockquote>
+              <blockquote>{{ project.quote | markdownify }}</blockquote>
             {% endif %}
             <div class="project-details">
-              {{ project.description }}
+              {{ project.description | markdownify | strip_html }}
               {% if project.additional_links %}
                 {% for link in project.additional_links %}
                   <a href="{{ link.url }}" target="_blank"><i class="{{ link.icon }}"></i> {{ link.title }}</a>
@@ -33,9 +33,9 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 50px; /* Increased gap for better separation */
+    gap: 50px;
     padding: 20px;
-    margin-bottom: 80px; /* Increased margin to ensure separation from next section */
+    margin-bottom: 120px; /* Increased to ensure space for hover */
     position: relative;
     z-index: 1;
   }
@@ -49,12 +49,13 @@
     border-radius: 5px;
     position: relative;
     transition: transform 0.3s ease;
-    min-height: 250px; /* Increased to prevent content overflow */
-    margin-bottom: 50px; /* Ensure space below each card */
+    min-height: 250px;
+    margin-bottom: 60px;
+    overflow: hidden; /* Contain hover overflow */
   }
   .project-card:hover {
     transform: scale(1.05);
-    z-index: 10;
+    z-index: 100; /* Higher z-index to ensure dominance */
   }
   .project-card-content {
     font-size: 1rem;
@@ -65,14 +66,16 @@
     background: #1E3A8A;
     padding: 15px;
     border-radius: 5px;
-    z-index: 20;
+    z-index: 200;
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%; /* Constrain width to prevent overflow */
+    width: 90%;
     margin-top: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 200px; /* Limit height to prevent excessive overlap */
+    overflow-y: auto; /* Scroll if content exceeds */
   }
   .project-card:hover .project-details {
     display: block;
